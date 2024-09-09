@@ -1,0 +1,86 @@
+.container{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form{
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ccd5ae;
+}
+
+input{
+  width: 100%;
+  font-size: 20px;
+  margin: 10px auto;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.form button{
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  border: 0;
+  transition: 1s ease;
+  border-radius: 3px;
+}
+
+.form button:hover{
+    background-color: bisque;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn-container button:last-child{
+  margin-left: 10px;
+  background-color: red;
+  color: #fff;
+}
+
+.dataTable{
+  margin-top: 20px;
+}
+
+table,td,tr,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+}
+
+table button{
+  border: none;
+  outline: none;
+  background: rgb(235, 235, 61);
+  padding: 8px 10px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+table button:last-child{
+  color: white;
+  background-color: red;
+}
+
+table th{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+table td{
+  font-size: 20px;
+}
